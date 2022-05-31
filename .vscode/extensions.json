@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "bradlc.vscode-tailwindcss",
+        "tabnine.tabnine-vscode",
+        "nicholashsiang.vscode-react-snippet",
+        "esbenp.prettier-vscode",
+        "mikestead.dotenv"
+    ]
+}

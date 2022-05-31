@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navBtn {
+        @apply h-12 cursor-pointer hover:scale-125 transition-all duration-150 ease-out
+    }
+    .btn {
+        @apply h-10 hover:scale-110 cursor-pointer transition-all duration-150 ease-out
+    } 
+    .footerBtn {
+        @apply h-20 w-28 flex items-center justify-center rounded-lg ml-4}
+    .headerBtn {
+    @apply w-32 h-20 rounded-lg flex items-center justify-center relative ml-4}
+    .popOut {
+    @apply cursor-pointer hover:scale-110 transition-all duration-150 ease-out}
+}
